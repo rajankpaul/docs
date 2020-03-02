@@ -28,7 +28,6 @@ sass:
   style: :compressed
 
 # Build settings
-#theme: jekyll-theme-primer
 plugins:
   - jekyll-feed
 
