@@ -3,7 +3,7 @@ layout: default
 ---
 
 *   [Personal Projects](./another-page.html)
-*   School
-*   Research
-*   Tutorials
-*   Important Links
+*   [School](./another-page.html)
+*   [Research](./another-page.html)
+*   [Tutorials](./another-page.html)
+*   [Important Links](./another-page.html)
