@@ -2,7 +2,7 @@
 layout: default
 ---
 
-*   [About Me](./another-page.html).
+*   [About Me](./another-page.html)
 *   Personal Projects
 *   School
 *   Research
