@@ -2,8 +2,8 @@
 layout: default
 ---
 
-*   [Personal Projects](./another-page.html)
-*   [School](./another-page.html)
-*   [Research](./another-page.html)
-*   [Tutorials](./another-page.html)
-*   [Important Links](./another-page.html)
+*   [Personal Projects](./personal_projects/index.html)
+*   [School](./school/index.html)
+*   [Research](./research/index.html)
+*   [Tutorials](./tutorials/index.html)
+*   [Important Links](./important_links/index.html)
