@@ -2,8 +2,9 @@
 layout: default
 ---
 
-*   [Link to another page](./another-page.html).
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+*   [About Me](./another-page.html).
+*   Personal Projects
+*   School
+*   Research
+*   Tutorials
+*   Important Links
