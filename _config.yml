@@ -20,7 +20,7 @@
 
 title: rajankpaul/wiki
 tagline: >- # this means to ignore newlines until "baseurl:"
-  inside my brain
+  in my brain
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wiki.rajankpaul.com" # the base hostname & protocol for your site, e.g. http://example.com
 
