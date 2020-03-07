@@ -15,6 +15,12 @@ title: Tritium
 ## Initial Setup
 *   Something
 
+## New User
+*   Something
+
+## Extra Security
+*   Something
+
 ## Blahblah
 *   Something
 
