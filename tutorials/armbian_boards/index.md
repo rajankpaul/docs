@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Armbian Single Board Computers
+title: Armbian Compatible Single Board Computers
 ---
 
 # Armbian Single Board Computers
