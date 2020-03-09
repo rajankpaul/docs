@@ -11,15 +11,15 @@ title: SoilSCAPE Setup
 > Instructions should be the same, just swapping the 12V power supply for a 12V lead acid car-battery. Written for LCv4 and RippleV3.
 
 ## Overview
-* Checking Hardware
+1. **Checking Hardware**
 	* Local Coordinator
 	* End Device
-* Flashing Firmware
+2. **Flashing Firmware**
 	* Local Coordinator
 	* End Device
 	* XBee Modem
 	* Raspberry Pi
-* Powering Network
+3. **Powering Network**
 	* Local Coordinator
 	* End Device
 
