@@ -50,32 +50,32 @@ title: SoilSCAPE Setup
 ##### Schedule Controller
 * Connect header to C16
 * Select device "Atmel1280" -> Read Signature
-* Set FUSES -> OxFF (Extended) | OxDA (High) | OxFF(Low)
+* Set FUSES -> OxFF (Extended); OxDA (High); OxFF(Low)
 
 ##### LCED
 * Connect header to C19
 * Select device "Atmel1280" -> Read Signature
-* Set FUSES -> OxFD (Extended) | OxDA (High) | OxFF(Low)
+* Set FUSES -> OxFD (Extended); OxDA (High); OxFF(Low)
 
 #### Local Coordinator Power Board
 * Use programming board with AA batteries
 
 ##### Watchdog Timer
 * Select device "ATtiny85" -> Read Signature
-* Set FUSES -> OxFF (Extended) | OxDF (High) | Ox62(Low)
+* Set FUSES -> OxFF (Extended); OxDF (High); Ox62(Low)
 
 ### End Device
 
 #### Watchdog Timer
 * Use programming board with AA batteries
 * Select device "ATtiny85" -> Read Signature
-* Set FUSES -> OxFF (Extended) | OxDF (High) | Ox62(Low)
+* Set FUSES -> OxFF (Extended); OxDF (High); Ox62(Low)
 
 #### MCU
 * Programming the Atmel1280 requires that the battery is connected
 * Connect header to 
 * Select device "Atmel1280" -> Read Signature
-* Set FUSES -> OxFF (Extended) | OxDA (High) | OxFF(Low)
+* Set FUSES -> OxFF (Extended); OxDA (High); OxFF(Low)
 
 ### XBee Modem
 
@@ -98,7 +98,7 @@ title: SoilSCAPE Setup
 * Use extFS if on lab computer, else mount ext4 partition using linux OS
 * files can be found in /home/pi/LC4/
 * Change 10-digit ID number in /config/lc_id.txt
-* run followeing command:
+* if using wifi dongle instead of modem run followeing command:
 ```console
 pi@LC4:~$ sudo systemctl restart wpa_supplicant.service
 ```
@@ -110,6 +110,7 @@ pi@LC4:~$ sudo systemctl restart wpa_supplicant.service
 * connect XBee modem to LCLB and connect antenna to modem
 * connect raspberry pi to bottom connector on LCLB
 * connect ribbon cable between LCLB and LCPB
+* connect 12V power supply or battery to LCPB CN4 using 2EDGK connector
 
 ### End Device
 * connect batteries, taking care to make sure positive is on the outside and negative is on the inside
