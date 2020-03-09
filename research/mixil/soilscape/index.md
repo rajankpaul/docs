@@ -32,7 +32,7 @@ title: SoilSCAPE Setup
 
 ### Local Coordinator
 
-#### Local Coordinator Power Board
+* #### Local Coordinator Power Board
 * Use the power supply tester to make sure the LCPB is properly functioning before connecting it to the LCLB.
 
 #### Local Coordinator Logic Board
