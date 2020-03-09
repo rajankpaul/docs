@@ -115,5 +115,5 @@ pi@LC4:~$ sudo systemctl restart wpa_supplicant.service
 * connect batteries, taking care to make sure positive is on the outside and negative is on the inside
 
 ## Glossary
-*LCLB* - Local Coordinator Logic Board  
-*LCPB* - Local Coordinator Power Board
+LCLB - Local Coordinator Logic Board  
+LCPB - Local Coordinator Power Board
