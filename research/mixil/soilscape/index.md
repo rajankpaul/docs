@@ -8,21 +8,20 @@ title: SoilSCAPE Setup
 
 ## Introduction
 > These instructions are for setting up a network in the lab as I have not yet had a chance to setup a soilscape network in the field.
->
 > Instructions should be the same, just swapping the 12V power supply for a 12V lead acid car-battery. Written for LCv4 and RippleV3.
 
 ## Overview
 * Checking Hardware
-1.  Local Coordinator
-2.  End Device
+	* Local Coordinator
+	* End Device
 * Flashing Firmware
-1.  Local Coordinator
-2.  End Device
-3.  XBee Modem
-4.  Raspberry Pi
+	* Local Coordinator
+	* End Device
+	* XBee Modem
+	* Raspberry Pi
 * Powering Network
-1.  Local Coordinator
-2.  End Device
+	* Local Coordinator
+	* End Device
 
 ## Checking Hardware
 
