@@ -3,6 +3,6 @@ layout: default
 title: Research
 ---
 
-[MiXIL](./mixil/)
+* [MiXIL](./mixil/)
 
 [back](../)
