@@ -4,7 +4,7 @@ title: SoilSCAPE Setup
 ---
 
 # SoilSCAPE Network Setup Instructions
-* author: Rajan K Paul *
+*author: Rajan K Paul*
 
 ## Introduction
 > These instructions are for setting up a network in the lab as I have not yet had a chance to setup a soilscape network in the field.
@@ -13,16 +13,16 @@ title: SoilSCAPE Setup
 
 ## Overview
 * Checking Hardware
-1. Local Coordinator
-2. End Device
+1.  Local Coordinator
+2.  End Device
 * Flashing Firmware
-1. Local Coordinator
-2. End Device
-3. XBee Modem
-4. Raspberry Pi
+1.  Local Coordinator
+2.  End Device
+3.  XBee Modem
+4.  Raspberry Pi
 * Powering Network
-1. Local Coordinator
-2. End Device
+1.  Local Coordinator
+2.  End Device
 
 ## Checking Hardware
 
