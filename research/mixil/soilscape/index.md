@@ -31,9 +31,9 @@ title: SoilSCAPE Setup
 ## Checking Hardware
 
 ### Local Coordinator
-
+#### Local Coordinator Power Board
 * #### Local Coordinator Power Board
-* Use the power supply tester to make sure the LCPB is properly functioning before connecting it to the LCLB.
+	* Use the power supply tester to make sure the LCPB is properly functioning before connecting it to the LCLB.
 
 #### Local Coordinator Logic Board
 * Check the jumpers on the LCLB to make sure it is in the desired bootmode.
