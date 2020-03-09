@@ -12,16 +12,16 @@ title: SoilSCAPE Setup
 
 ## Overview
 1. **Checking Hardware**
-	* Local Coordinator
-	* End Device
+* Local Coordinator
+* End Device
 2. **Flashing Firmware**
-	* Local Coordinator
-	* End Device
-	* XBee Modem
-	* Raspberry Pi
+* Local Coordinator
+* End Device
+* XBee Modem
+* Raspberry Pi
 3. **Powering Network**
-	* Local Coordinator
-	* End Device
+* Local Coordinator
+* End Device
 
 ## Checking Hardware
 
