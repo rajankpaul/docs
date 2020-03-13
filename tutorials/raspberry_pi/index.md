@@ -5,14 +5,20 @@ title: Raspberry Pi
 
 # Raspberry Pi
 
-> Fill
-> in
-> summary
+> The OG SBC.
+> 
+> I honestly think everyone should own one.
 
 ## Preparation
 *   Something
 
 ## Initial Setup
+*   Something
+
+## New User
+*   Something
+
+## Extra Security
 *   Something
 
 ## Blahblah
