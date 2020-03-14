@@ -12,7 +12,7 @@ title: Raspberry Pi
 ## Preparation
 *   Use Win32DiskImager or Raspberry Pi Imager to flash your desired Raspbian image onto a microSD card
 *   Remount the microSD card and add an empty file named *ssh* to the boot partition
-*   If using wifi, add the following *wpa_supplicant.conf* file to the boot parition:
+*   If using wifi, add the following *wpa_supplicant.conf* file to the boot parition: 
 ```
 country=us
 update_config=1
