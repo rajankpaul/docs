@@ -19,11 +19,11 @@ title: Raspberry Pi
 *   ssh into the pi using default username=pi, password=raspberry
 *   immediately run 'passwd' command to change default password to something more secure
 *   run the following commands:
-'''bash
+```bash
 sudo apt update
 sudo apt dist-upgrade -y
 sudo apt autoremove
-'''
+```
 
 ## New User
 *   Something
