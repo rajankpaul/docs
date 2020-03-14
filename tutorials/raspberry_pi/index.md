@@ -11,7 +11,7 @@ title: Raspberry Pi
 
 ## Preparation
 *   Use Win32DiskImager or Raspberry Pi Imager to flash your desired Raspbian image onto a microSD card
-*   Remount the microSD card and add a file named **ssh** to the boot partition 
+*   Remount the microSD card and add a file named *ssh* to the boot partition 
 
 ## Initial Setup
 *   Insert the flashed microSD card into the rpi, and power it on
