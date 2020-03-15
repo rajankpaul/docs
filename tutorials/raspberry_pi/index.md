@@ -31,10 +31,13 @@ network={
 *   Look for the rpi's IP Address using a tool like Wireless Network Watcher on Windows or *arp-scan* on cli
 *   ssh into the pi using default username=pi, password=raspberry
 *   immediately run *passwd* command to change default password to something more secure
-*   run the following commands:
+*   run the following commands to configure localisation and timezone:
 ```bash
 sudo dpkg-reconfigure locales
 sudo dpkg-reconfigure tzdata
+```
+*   run the following commands to update:
+```bash
 sudo apt update
 sudo apt dist-upgrade -y
 sudo apt autoremove
@@ -55,10 +58,12 @@ sudo su <username>
 sudo passwd --lock pi
 ```
 
-## Extra Security
+## Essential Software
+*   Something
+### Security
 *   Something
 
-## Blahblah
+## Next Steps
 *   Something
 
 [back](../)
