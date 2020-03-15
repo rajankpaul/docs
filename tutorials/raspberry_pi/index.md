@@ -9,6 +9,9 @@ title: Raspberry Pi
 > 
 > I honestly think everyone should own one.
 
+## Table of Contents
+*   List and link different headers
+
 ## Preparation
 *   Use Win32DiskImager or Raspberry Pi Imager to flash your desired Raspbian image onto a microSD card
 *   Remount the microSD card and add an empty file named *ssh* to the boot partition
