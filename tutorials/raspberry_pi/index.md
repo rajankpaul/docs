@@ -33,6 +33,8 @@ network={
 *   immediately run *passwd* command to change default password to something more secure
 *   run the following commands:
 ```bash
+sudo dpkg-reconfigure locales
+sudo dpkg-reconfigure tzdata
 sudo apt update
 sudo apt dist-upgrade -y
 sudo apt autoremove
