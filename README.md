@@ -1,2 +1,2 @@
-# wiki.rajankpaul.com
-wiki
+# docs.rajankpaul.com
+documentation
