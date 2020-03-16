@@ -12,5 +12,6 @@ title: Linux
 *   [nginx](./nginx/)
 *   [bitwarden_rs](./bitwarden_rs/)
 *   [transmission](./transmission/)
+*   [jellyfin](./jellyfin/)
 
 [back](../)
