@@ -9,12 +9,6 @@ title: Raspberry Pi
 > I honestly think everyone should own one.
 > This guide assumes physical security, as the rpi is not powerful enought to support disk cryptography.
 
-## Table of Contents
-*   Preparation
-*   Initial Setup
-*   New User
-*   Software Recommendations
-
 ## Preparation
 *   For a 32-bit operating systems, use Raspbian. For 64-bit, use Ubuntu Server for the Raspberry Pi.
 *   Use Win32DiskImager or Raspberry Pi Imager to flash your desired OS image onto a microSD card
@@ -66,6 +60,20 @@ sudo passwd --lock pi
 ```
 
 ## Software Recommendations
-*   
+### Utility
+*   [vim]()
+*   [tmux]()
+### Security
+*   [ufw]()
+*   [fail2ban]()
+*   [bitwarden_rs]()
+### Networking
+*   [samba]()
+*   [nginx]()
+*   [ddclient]()
+*   [openvpn]()
+### Services
+*   [jellyfin]()
+*   [tranmission]()
 
 [back](../)
