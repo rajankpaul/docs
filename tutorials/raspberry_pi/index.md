@@ -6,14 +6,18 @@ title: Raspberry Pi
 # Raspberry Pi
 
 > The OG SBC.
-> 
 > I honestly think everyone should own one.
+> This guide assumes physical security, as the rpi is not powerful enought to support disk cryptography.
 
 ## Table of Contents
-*   List and link different headers
+*   Preparation
+*   Initial Setup
+*   New User
+*   Software Recommendations
 
 ## Preparation
-*   Use Win32DiskImager or Raspberry Pi Imager to flash your desired Raspbian image onto a microSD card
+*   For a 32-bit operating systems, use Raspbian. For 64-bit, use Ubuntu Server for the Raspberry Pi.
+*   Use Win32DiskImager or Raspberry Pi Imager to flash your desired OS image onto a microSD card
 *   Remount the microSD card and add an empty file named *ssh* to the boot partition
 *   If using wifi, add the following *wpa_supplicant.conf* file to the boot partition:
 
@@ -61,12 +65,7 @@ sudo su <username>
 sudo passwd --lock pi
 ```
 
-## Essential Software
-*   Something
-### Security
-*   Something
-
-## Next Steps
-*   Something
+## Software Recommendations
+*   
 
 [back](../)
