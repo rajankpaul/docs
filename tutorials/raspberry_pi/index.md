@@ -61,19 +61,19 @@ sudo passwd --lock pi
 
 ## Software Recommendations
 ### Utility
-*   [vim]()
-*   [tmux]()
+*   [vim](.)
+*   [tmux](.)
 ### Security
-*   [ufw]()
-*   [fail2ban]()
-*   [bitwarden_rs]()
+*   [ufw](.)
+*   [fail2ban](.)
+*   [bitwarden_rs](.)
 ### Networking
-*   [samba]()
-*   [nginx]()
-*   [ddclient]()
-*   [openvpn]()
+*   [samba](.)
+*   [nginx](.)
+*   [ddclient](.)
+*   [openvpn](.)
 ### Services
-*   [jellyfin]()
-*   [tranmission]()
+*   [jellyfin](.)
+*   [tranmission](.)
 
 [back](../)
