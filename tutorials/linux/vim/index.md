@@ -3,7 +3,10 @@ layout: default
 title: Vim 
 ---
 
-*   Something
-*   to copy from within putty, hold down shift and select text with left mouse button
+# Vim
+
+> The world's greatest text editor.
+> 
+> Why leave the comfort of the command line?
 
 [back](../)
