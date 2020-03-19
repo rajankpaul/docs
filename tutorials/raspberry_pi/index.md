@@ -60,12 +60,13 @@ sudo passwd --lock pi
 ```
 
 ## Software Recommendations
+*the ones marked with an asterix are in my opinion, essential
 ### Utility
-*   [vim](.)
+*   [vim*](.)
 *   [tmux](.)
 ### Security
-*   [ufw](.)
-*   [fail2ban](.)
+*   [ufw*](.)
+*   [fail2ban*](.)
 *   [bitwarden_rs](.)
 ### Networking
 *   [samba](.)
