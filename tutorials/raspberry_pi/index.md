@@ -63,7 +63,6 @@ sudo passwd --lock pi
 *the ones marked with an asterix are in my opinion, essential
 ### Utility
 *   [vim*](.)
-*   [tmux](.)
 ### Security
 *   [ufw*](.)
 *   [fail2ban*](.)
