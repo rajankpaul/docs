@@ -11,6 +11,8 @@ title: Linux
 *   [ddclient](./ddclient/)
 *   [openvpn](./openvpn/)
 *   [nginx](./nginx/)
+*   [apache](./apache/)
+*   [lighttpd](./lighttpd/)
 *   [bitwarden_rs](./bitwarden_rs/)
 *   [transmission](./transmission/)
 *   [jellyfin](./jellyfin/)
