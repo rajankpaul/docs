@@ -6,6 +6,7 @@ title: Linux
 *   [vim](./vim/)
 *   [ufw](./ufw/)
 *   [fail2ban](./fail2ban/)
+*   [OSSEC](./ossec/)
 *   [tmux](./tmux/)
 *   [samba](./samba/)
 *   [ddclient](./ddclient/)
