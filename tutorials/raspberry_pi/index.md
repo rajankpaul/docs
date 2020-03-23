@@ -74,7 +74,7 @@ sudo passwd --lock pi
 ```
 
 ## Software Recommendations
-*the ones marked with an asterix are in my opinion, essential
+\*the ones marked with an asterix are *in my opinion*, essential
 ### Utility
 *   [vim*](.)
 ### Security
