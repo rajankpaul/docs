@@ -7,9 +7,10 @@ title: ddclient
 
 ```
 daemon=1800
+pid=/var/run/ddclient.pid
 protocol=cloudflare
 use=web
-server=www.cloudflare.com
+server=api.cloudflare.com/client/v4
 ssl=yes
 login=*cloudflare-email*
 password=*cloudflare-global-api-key*
