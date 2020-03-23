@@ -16,6 +16,18 @@ title: Raspberry Pi
 ### Raspbian
 *   Remount the microSD card and add an empty file named *ssh* to the boot partition
 *   If using wifi, add the following *wpa_supplicant.conf* file to the boot partition:
+```
+country=us
+update_config=1
+ctrl_interface=/var/run/wpa_supplicant
+
+network={
+ scan_ssid=1
+ ssid="MyNetworkSSID"
+ psk="Pa55w0rd1234"
+}
+```
+
 *   default username=pi, password=raspberry
 
 ### Ubuntu Server
@@ -28,18 +40,6 @@ root=LABEL=writable
 ```
 
 *   default username=ubuntu, password=ubuntu
-
-```
-country=us
-update_config=1
-ctrl_interface=/var/run/wpa_supplicant
-
-network={
- scan_ssid=1
- ssid="MyNetworkSSID"
- psk="Pa55w0rd1234"
-}
-```
 
 ## Initial Setup
 *   Insert the flashed microSD card into the rpi, and power it on
