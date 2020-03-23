@@ -12,8 +12,22 @@ title: Raspberry Pi
 ## Preparation
 *   For a 32-bit operating systems, use Raspbian. For 64-bit, use Ubuntu Server for the Raspberry Pi.
 *   Use Win32DiskImager or Raspberry Pi Imager to flash your desired OS image onto a microSD card
+
+### Raspbian
 *   Remount the microSD card and add an empty file named *ssh* to the boot partition
 *   If using wifi, add the following *wpa_supplicant.conf* file to the boot partition:
+*   default username=pi, password=raspberry
+
+### Ubuntu Server
+*   Remount the microSD card and edit config.txt on the boot partition to reflect the following changes for USB boot:
+```
+kernel=vmlinuz
+initramfs initrd.img followkernel
+#device_tree_address=0x03000000
+root=LABEL=writable
+```
+
+*   default username=ubuntu, password=ubuntu
 
 ```
 country=us
@@ -30,7 +44,7 @@ network={
 ## Initial Setup
 *   Insert the flashed microSD card into the rpi, and power it on
 *   Look for the rpi's IP Address using a tool like Wireless Network Watcher on Windows or *arp-scan* on cli
-*   ssh into the pi using default username=pi, password=raspberry
+*   ssh into the pi using default username and password
 *   immediately run *passwd* command to change default password to something more secure
 *   run the following commands to configure localisation and timezone:
 ```bash
