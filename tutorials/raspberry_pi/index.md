@@ -59,11 +59,11 @@ sudo apt autoremove
 ```
 
 ## New User
-*   In order to creater a new user, run the following command and replace *&lt;username&gt;* with your actual desired username. It will ask you to enter a new password:
+*   In order to creater a new user, run the following command and replace \<username\> with your actual desired username. It will ask you to enter a new password:
 ```bash
 sudo adduser --gecos "" <username>
 ```
-*   Run the following command to add your new user to the same groups as pi, except for the pi group. You must once again replace *&lt;username&gt;* with your desired username:
+*   Run the following command to add your new user to the same groups as pi, except for the pi group. You must once again replace \<username\> with your desired username:
 ```bash
 for GROUP in adm dialout cdrom sudo audio video plugdev games users input netdev spi i2c gpio; do sudo adduser <username> $GROUP; done
 ```
@@ -76,10 +76,10 @@ sudo passwd --lock pi
 ## Software Recommendations
 \*the ones marked with an asterix are *in my opinion*, essential
 ### Utility
-*   [vim*](.)
+*   [vim\*](.)
 ### Security
-*   [ufw*](.)
-*   [fail2ban*](.)
+*   [ufw\*](.)
+*   [fail2ban\*](.)
 *   [bitwarden_rs](.)
 ### Networking
 *   [samba](.)
