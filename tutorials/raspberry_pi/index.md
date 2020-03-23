@@ -51,6 +51,18 @@ root=LABEL=writable
 sudo dpkg-reconfigure locales
 sudo dpkg-reconfigure tzdata
 ```
+
+*   Enable swap:
+```
+sudo fallocate -l 1G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+```
+
+*   /swapfile swap swap defaults 0 0
+*   sudo swapon --show
+
 *   run the following commands to update:
 ```bash
 sudo apt update
