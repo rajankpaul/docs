@@ -31,7 +31,7 @@ network={
 *   default username=pi, password=raspberry
 
 ### Ubuntu Server
-*   Remount the microSD card and edit config.txt on the boot partition to reflect the following changes for USB boot:
+*   Remount the microSD card and edit config.txt on the boot partition to reflect the following changes to implement USB boot:
 ```
 kernel=vmlinuz
 initramfs initrd.img followkernel
