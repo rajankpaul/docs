@@ -18,4 +18,6 @@ zone=*cloudflare-domain*
 *full-hostname*
 ```
 
+*   sudo ddclient -daemon=0 -debug -verbose -noquiet
+
 [back](../)
