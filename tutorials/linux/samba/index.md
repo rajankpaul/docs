@@ -6,6 +6,7 @@ title: Samba
 ```
 sudo apt install samba samba-common-bin -y
 
+sudo vim /etc/samba/smb.conf
 [share_name]
     path = /home/pi/shared
     read only = no
