@@ -42,6 +42,8 @@ sudo vim /etc/php/7.3/apache2/php.ini
 memory_limit = 512M
 post_max_size = 0
 upload_max_filesize = 0
+max_input_time = 86400
+max_execution_time = 86400
 
 sudo vim /etc/apache2/apache2.conf
 
