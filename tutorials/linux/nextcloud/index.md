@@ -20,8 +20,8 @@ FLUSH PRIVILEGES;
 sudo apt install php7.3 php7.3-mbstring php7.3-mysql php7.3-curl php7.3-gd php7.3-curl php7.3-zip php7.3-xml -y
 
 sudo service apache2 restart
-sudo systemctl enable apache2.service
-sudo systemctl enable mariadb-server
+sudo systemctl enable apache2
+sudo systemctl enable mariadb
 
 sudo wget -O latest.zip https://download.nextcloud.com/server/releases/nextcloud-18.0.2.zip
 cd /var/www/html/nextcloud
