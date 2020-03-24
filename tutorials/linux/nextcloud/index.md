@@ -35,7 +35,7 @@ sudo chmod 750 /var/nextcloud/data
 sudo vim /etc/php/7.3/apache2/php.ini
 post_max_size = 0
 upload_max_filesize = 0
-sudo vim /var/www/html/nextcloud/config.php
+sudo vim /var/www/html/nextcloud/config/config.php
 
 'trusted_domains' =>
 array (
