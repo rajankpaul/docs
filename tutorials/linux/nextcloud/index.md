@@ -33,13 +33,6 @@ sudo chmod 750 /var/nextcloud/data
 sudo vim /etc/php/7.3/apache2/php.ini
 post_max_size = 0
 upload_max_filesize = 0
-sudo vim /var/www/html/nextcloud/config/config.php
-
-'trusted_domains' =>
-array (
-    0 => '192.168.1.105',
-    1 => 'nextcloud.example.com',
-),
 
 sudo vim /etc/apache2/apache2.conf
 
@@ -50,6 +43,15 @@ sudo vim /etc/apache2/apache2.conf
 </Directory>
 
 sudo vim /etc/apache2/sites-enabled/000-default.conf
+#change document root to /var/www/html/nextcloud
+
+sudo vim /var/www/html/nextcloud/config/config.php
+
+'trusted_domains' =>
+array (
+    0 => '192.168.1.105',
+    1 => 'nextcloud.example.com',
+),
 ```
 
 [back](../)
