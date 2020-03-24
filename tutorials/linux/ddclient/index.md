@@ -3,13 +3,14 @@ layout: default
 title: ddclient 
 ---
 
+*   sudo apt install libdata-validate-ip-perl libjson-any-perl sendmail
 *   sudo vim /etc/ddclient.conf
 
 ```
 daemon=1800
 pid=/var/run/ddclient.pid
 protocol=cloudflare
-use=web
+use=web, web=checkip.dyndns.com
 server=api.cloudflare.com/client/v4
 ssl=yes
 login=*cloudflare-email*
