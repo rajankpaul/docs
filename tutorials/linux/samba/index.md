@@ -13,7 +13,7 @@ sudo vim /etc/samba/smb.conf
     public = no
     writable = yes
     
-sudo systemctl restart smbd.service
+sudo systemctl restart smbd
 ```
 
 ```bash
