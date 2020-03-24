@@ -31,6 +31,7 @@ sudo chown www-data:www-data /var/nextcloud/data
 sudo chmod 750 /var/nextcloud/data
 
 sudo vim /etc/php/7.3/apache2/php.ini
+memory_limit = 512M
 post_max_size = 0
 upload_max_filesize = 0
 
