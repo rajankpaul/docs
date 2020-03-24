@@ -13,7 +13,7 @@ sudo apt install jellyfin
 sudo usermod -aG video jellyfin
 sudo systemctl restart jellyfin
 
-sudo nano /boot/config.txt
+sudo nano /boot/(firmware/)config.txt
 gpu_mem=320
 
 sudo systemctl enable jellyfin.service
