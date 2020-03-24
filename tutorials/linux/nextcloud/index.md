@@ -36,7 +36,7 @@ upload_max_filesize = 0
 
 sudo vim /etc/apache2/apache2.conf
 
-<Directory /var/www/>        
+<Directory /var/www/html/nextcloud/>        
         Options Indexes FollowSymLinks
         AllowOverride All
         Require all granted
