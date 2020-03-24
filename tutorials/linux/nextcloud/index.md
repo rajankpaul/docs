@@ -24,6 +24,13 @@ sudo service apache2 restart
 sudo systemctl enable apache2
 sudo systemctl enable mariadb
 
+sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf
+
+[mysqld]
+innodb_large_prefix=true
+innodb_file_format=barracuda
+innodb_file_per_table=1
+
 sudo wget -O latest.zip https://download.nextcloud.com/server/releases/nextcloud-18.0.2.zip
 cd /var/www/html/nextcloud
 sudo chown -R www-data:www-data config apps
