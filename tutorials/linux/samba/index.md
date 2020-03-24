@@ -3,7 +3,10 @@ layout: default
 title: Samba 
 ---
 
-*   Something
+```
+sudo apt install samba samba-common-bin -y
+```
+
 ```bash
 sudo chmod 0700 /root/.secrets/
 sudo chmod 0400 /root/.secrets/samba.credentials
