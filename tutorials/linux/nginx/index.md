@@ -15,16 +15,16 @@ sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
 # Redirect HTTP requests to HTTPS 
 server {
     listen 80;
-    server_name  cctv.adomainname.com;
+    server_name  example.com;
     return 301 https://$host$request_uri;
 }
   
 # For ssl
 server {
     ssl on;
-    ssl_certificate /etc/letsencrypt/live/cctv.adomainname.com/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/cctv.adomainname.com/privkey.pem;
-    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+    ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;
+    ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;
     ssl_prefer_server_ciphers on;
     ssl_dhparam /etc/ssl/certs/dhparam.pem;
     ssl_ciphers 'ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:kEDH+AESGCM:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA256:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:DHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA256:AES256-SHA256:AES128-SHA:AES256-SHA:AES:CAMELLIA:DES-CBC3-SHA:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!MD5:!PSK:!aECDH:!EDH-DSS-DES-CBC3-SHA:!EDH-RSA-DES-CBC3-SHA:!KRB5-DES-CBC3-SHA';
@@ -37,9 +37,9 @@ server {
     default_type  application/octet-stream;
       
     listen 443;
-    server_name  cctv.adomainname.com;
+    server_name  example.com;
   
-    root /var/www/cctv.adomainname.com;
+    root /var/www/example.com;
   
     location ~ /.well-known {
         allow all;
@@ -47,7 +47,7 @@ server {
   
     location / {
         include proxy_params;
-        proxy_pass http://192.168.0.107;
+        proxy_pass http://192.168.0.X;
     }
 }
 ```
