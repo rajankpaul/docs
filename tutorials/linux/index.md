@@ -15,6 +15,7 @@ title: Linux
 *   [nginx](./nginx/)
 *   [apache](./apache/)
 *   [lighttpd](./lighttpd/)
+*   [certbot](./certbot/)
 *   [bitwarden_rs](./bitwarden_rs/)
 *   [NextCloud](./nextcloud/)
 *   [transmission](./transmission/)
