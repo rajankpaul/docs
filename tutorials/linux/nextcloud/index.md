@@ -25,7 +25,7 @@ sudo systemctl enable mariadb
 
 sudo wget -O latest.zip https://download.nextcloud.com/server/releases/nextcloud-18.0.2.zip
 cd /var/www/html/nextcloud
-sudo chown www-data:www-data config apps
+sudo chown -R www-data:www-data config apps
 sudo mkdir -p /var/nextcloud/data
 sudo chown www-data:www-data /var/nextcloud/data
 sudo chmod 750 /var/nextcloud/data
