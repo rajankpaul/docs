@@ -5,6 +5,12 @@ title: Samba
 
 ```
 sudo apt install samba samba-common-bin -y
+
+[share_name]
+    path = /home/pi/shared
+    read only = no
+    public = no
+    writable = yes
 ```
 
 ```bash
