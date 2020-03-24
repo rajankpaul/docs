@@ -16,6 +16,7 @@ title: Raspberry Pi
 ### Raspbian
 *   Remount the microSD card and add an empty file named *ssh* to the boot partition
 *   If using wifi, add the following *wpa_supplicant.conf* file to the boot partition:
+
 ```
 country=us
 update_config=1
@@ -32,6 +33,7 @@ network={
 
 ### Ubuntu Server
 *   Remount the microSD card and edit config.txt on the boot partition to reflect the following changes to implement USB boot:
+
 ```
 kernel=vmlinuz
 initramfs initrd.img followkernel
@@ -53,6 +55,7 @@ sudo dpkg-reconfigure tzdata
 ```
 
 *   Enable swap:
+
 ```
 sudo swapoff -a
 sudo fallocate -l 1G /swapfile
@@ -65,6 +68,7 @@ sudo swapon /swapfile
 *   sudo swapon --show
 
 *   run the following commands to update:
+
 ```bash
 sudo apt update
 sudo apt dist-upgrade -y
@@ -73,14 +77,18 @@ sudo apt autoremove
 
 ## New User
 *   In order to creater a new user, run the following command and replace \<username\> with your actual desired username. It will ask you to enter a new password:
+
 ```bash
 sudo adduser --gecos "" <username>
 ```
 *   Run the following command to add your new user to the same groups as pi, except for the pi group. You must once again replace \<username\> with your desired username:
+
 ```bash
 for GROUP in adm dialout cdrom sudo audio video plugdev games users input netdev spi i2c gpio; do sudo adduser <username> $GROUP; done
 ```
+
 *   Use the following commands to switch to your new user and disable logging in directly to the pi user:
+
 ```bash
 sudo su <username>
 sudo passwd --lock pi
