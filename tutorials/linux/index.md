@@ -15,6 +15,7 @@ title: Linux
 *   [apache](./apache/)
 *   [lighttpd](./lighttpd/)
 *   [bitwarden_rs](./bitwarden_rs/)
+*   [NextCloud](./nextcloud/)
 *   [transmission](./transmission/)
 *   [jellyfin](./jellyfin/)
 
