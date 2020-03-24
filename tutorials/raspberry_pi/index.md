@@ -65,7 +65,7 @@ sudo swapon /swapfile
 ```
 
 *   /swapfile swap swap defaults 0 0
-*   sudo swapon --show
+*   sudo swapon \-\-show
 
 *   run the following commands to update:
 
