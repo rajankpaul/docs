@@ -63,6 +63,8 @@ array (
     0 => '192.168.1.105',
     1 => 'nextcloud.example.com',
 ),
+
+sudo -u www-data php occ config:app:set text workspace_available --value=0
 ```
 
 [back](../)
