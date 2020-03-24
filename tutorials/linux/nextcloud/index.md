@@ -23,8 +23,6 @@ sudo service apache2 restart
 sudo systemctl enable apache2.service
 sudo systemctl enable mariadb-server
 
-index index.php index.html index.htm;
-
 sudo wget -O latest.zip https://download.nextcloud.com/server/releases/nextcloud-18.0.2.zip
 cd /var/www/html/nextcloud
 sudo chown www-data:www-data config apps
