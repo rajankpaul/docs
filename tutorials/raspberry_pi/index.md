@@ -85,6 +85,7 @@ sudo adduser --gecos "" <username>
 
 ```bash
 for GROUP in adm dialout cdrom sudo audio video plugdev games users input netdev spi i2c gpio; do sudo adduser <username> $GROUP; done
+for GROUP in adm dialout cdrom floppy sudo audio dip video plugdev lxd netdev; do sudo adduser <username> $GROUP; done
 ```
 
 *   Use the following commands to switch to your new user and disable logging in directly to the pi user:
