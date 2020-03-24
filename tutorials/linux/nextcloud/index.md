@@ -37,6 +37,12 @@ post_max_size = 0
 upload_max_filesize = 0
 sudo vim /var/www/html/nextcloud/config.php
 
+'trusted_domains' =>
+array (
+    0 => '192.168.1.105',
+    1 => 'nextcloud.example.com',
+),
+
 sudo vim /etc/apache2/apache2.conf
 
 <Directory /var/www/>        
