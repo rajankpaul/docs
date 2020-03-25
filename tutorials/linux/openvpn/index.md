@@ -52,8 +52,8 @@ sudo ufw allow out to 192.168.1.0/24
 sudo ufw default deny outgoing
 sudo ufw default deny incoming
 sudo ufw allow out to 107.152.104.216 port 1194 proto udp
-sudo ufw allow out on tun0 from any to any
-sudo ufw allow in on tun0 from any to any
+sudo ufw allow out on tun0
+sudo ufw allow in on tun0
 sudo ufw enable
 
 sudo chmod 400 /etc/openvpn/CG_XX.conf
