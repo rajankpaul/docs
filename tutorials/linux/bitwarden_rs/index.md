@@ -27,14 +27,14 @@ FLUSH PRIVILEGES;
 # WEBSOCKET_ENABLED=true
 # INVITATIONS_ALLOWED=false
 # DATA_FOLDER=/var/lib/bitwarden_rs/data
-# WEB_VAULT=/var/lib/bitwarden_rs/web_vault
+# WEB_VAULT=/var/lib/bitwarden_rs/web-vault/
 
 sudo mkdir /var/lib/bitwarden_rs
 sudo mkdir -p /home/pi/bitwarden_rs/data
 sudo mv web_vault /home/pi/bitwarden_rs
 sudo vim /etc/fstab
 /home/pi/bitwarden_rs/data/ /var/lib/bitwarden_rs/data none defaults,bind 0 0
-/home/pi/bitwarden_rs/web_vault/ /var/lib/bitwarden_rs/web_vault none defaults,bind 0 0
+/home/pi/bitwarden_rs/web-vault/ /var/lib/bitwarden_rs/web-vault none defaults,bind 0 0
 sudo cp bitwarden_rs /usr/bin/bitwarden_rs
 sudo cp .env.template /etc/bitwarden_rs.env
 
