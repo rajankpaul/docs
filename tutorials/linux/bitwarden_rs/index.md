@@ -8,6 +8,13 @@ title: Bitwarden_rs
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install openssl pkg-config libssl-dev
+
+sudo apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.asc'
+sudo vim /etc/apt/sources.list.d/mariadb-server.list
+#add following lines
+deb [arch=arm64] http://mirror.lstn.net/mariadb/repo/10.4/ubuntu bionic main
+deb-src http://ftp.ddg.lth.se/mariadb/repo/10.4/ubuntu bionic main
+
 sudo apt install mariadb-server libmariadb-dev-compat libmariadb-dev
 
 # download bitwarden_rs source code and web-vault binary from github
