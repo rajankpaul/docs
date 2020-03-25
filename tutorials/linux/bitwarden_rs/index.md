@@ -69,8 +69,8 @@ Requires=mariadb.service
 
 [Service]
 # The user/group bitwarden_rs is run under. the working directory (see below) should allow write and read access to this user/group
-User=pi
-Group=pi
+User=ubuntu
+Group=ubuntu
 # The location of the .env file for configuration
 EnvironmentFile=/etc/bitwarden_rs.env
 # The location of the compiled binary
