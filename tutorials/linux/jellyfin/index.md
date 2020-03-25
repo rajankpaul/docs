@@ -3,7 +3,7 @@ layout: default
 title: Jellyfin 
 ---
 
-*   Something
+*   Rasbian works better due to the implementation of video hardware acceleration (OMX)
 
 ```
 wget -O - https://repo.jellyfin.org/debian/jellyfin_team.gpg.key | sudo apt-key add - 
