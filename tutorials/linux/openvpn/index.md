@@ -56,11 +56,11 @@ sudo ufw allow out on tun0 from any to any
 sudo ufw allow in on tun0 from any to any
 sudo ufw enable
 
-sudo chmod 400 /etc/openvpn/CG_.conf
+sudo chmod 400 /etc/openvpn/CG_XX.conf
 sudo chmod 400 /etc/openvpn/user.txt
 
-sudo systemctl start openvpn@
-sudo systemctl enable openvpn@
+sudo systemctl start openvpn
+sudo systemctl enable openvpn
 ```
 
 [back](../)
