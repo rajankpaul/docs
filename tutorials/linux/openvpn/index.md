@@ -61,6 +61,9 @@ sudo chmod 400 /etc/openvpn/user.txt
 
 sudo systemctl start openvpn
 sudo systemctl enable openvpn
+
+# check for dnsleaks
+curl https://ipleak.net/json/
 ```
 
 [back](../)
