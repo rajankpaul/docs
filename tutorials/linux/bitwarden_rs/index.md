@@ -37,7 +37,6 @@ sudo vim /etc/fstab
 /home/pi/bitwarden_rs/web_vault/ /var/lib/bitwarden_rs/web_vault none defaults,bind 0 0
 sudo cp bitwarden_rs /usr/bin/bitwarden_rs
 sudo cp .env.template /etc/bitwarden_rs.env
-en
 
 ```
 sudo vim /etc/systemd/system/bitwarden_rs.service
