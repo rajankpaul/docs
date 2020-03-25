@@ -21,7 +21,7 @@ CREATE DATABASE bitwarden_rs;
 CREATE USER 'bitwarden_rs'@'localhost' IDENTIFIED BY 'yourpassword';
 GRANT ALTER, CREATE, DELETE, DROP, INDEX, INSERT, SELECT, UPDATE ON `bitwarden_rs`.* TO 'bitwarden_rs'@'localhost';
 FLUSH PRIVILEGES;
-# set the sql environment variable to mysql://dbuser:yourpassword@192.168.1.10:3306/bitward
+# set the sql environment variable to mysql://dbuser:yourpassword@192.168.1.10:3306/bitwarden
 # ENABLE_DB_WAL=false
 # SHOW_PASSWORD_HINT=false
 # WEBSOCKET_ENABLED=true
