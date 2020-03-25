@@ -107,6 +107,7 @@ sudo ufw allow 80
 sudo ufw allow 3012
 
 # SIGNUPS_ALLOWED=false
+# DOMAIN=https://vault.example.com
 ```
 
 [back](../)
