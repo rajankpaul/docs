@@ -33,6 +33,14 @@ sudo mkdir -p /home/ubuntu/.config/transmission-daemon/
 sudo ln -s /etc/transmission-daemon/settings.json /home/ubuntu/.config/transmission-daemon/
 sudo chown -R ubuntu:ubuntu /home/ubuntu/.config/transmission-daemon/
 sudo systemctl start transmission-daemon
+
+sudo vim /etc/sysctl.conf
+{
+...
+net.core.rmem_max = 16777216
+net.core.wmem_max = 4194304
+}
+sudo sysctl -p
 ```
 
 [back](../)
