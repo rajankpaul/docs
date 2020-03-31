@@ -19,7 +19,7 @@ sudo vim /etc/transmission-daemon/settings.json
 "incomplete-dir-enabled": true,
 "rpc-password": "Your_Password",
 "rpc-username": "Your_Username",
-"rpc-whitelist":
+"rpc-whitelist": "192.168.*.*",
 }
 
 sudo vim /etc/init.d/transmission-daemon
