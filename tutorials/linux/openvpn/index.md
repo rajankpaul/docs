@@ -38,6 +38,11 @@ sudo nano CG_XX.conf
 {
 auth-user-pass /etc/openvpn/user.txt
 ...
+#ping 5
+#ping-exit 60
+#ping-timer-rem
+keepalive 10 60
+...
 up /etc/openvpn/update-resolv-conf
 down /etc/openvpn/update-resolv-conf
 }
