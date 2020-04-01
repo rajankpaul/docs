@@ -25,7 +25,7 @@ sudo chmod 0400 /root/.secrets/samba.credentials
 ```
 (in fstab)
 //ip_address/share_name /media/mount_folder cifs credentials=/root/.secrets/samba.credentials, 0 0
-//<host>/<share> /mnt/<host>/<user>/<share> cifs _netdev,noauto,comment=systemd.automount,credentials=/etc/samba.<user>,uid=<user>,gid=<user>,forceuid,forcegid     0 0
+//<host>/<share> /mnt/<host>/<user>/<share> cifs _netdev,noauto,comment=systemd.automount,credentials=/etc/samba.<user>,uid=<user>,gid=<user>,forceuid,forcegid,users,rw,     0 0
 
 (in credentials file)
 username=
