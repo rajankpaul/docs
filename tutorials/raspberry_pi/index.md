@@ -112,4 +112,22 @@ sudo passwd --lock pi
 *   [jellyfin](.)
 *   [tranmission](.)
 
+## Optional Configuration
+```
+# turn off LEDs
+sudo vim /boot/config.txt
+
+# Disable Ethernet LEDs
+dtparam=eth_led0=14
+dtparam=eth_led1=14
+
+# Disable the PWR LED
+dtparam=pwr_led_trigger=none
+dtparam=pwr_led_activelow=off
+
+# Disable the Activity LED
+dtparam=act_led_trigger=none
+dtparam=act_led_activelow=off
+```
+
 [back](../)
