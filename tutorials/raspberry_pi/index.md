@@ -130,4 +130,10 @@ dtparam=act_led_trigger=none
 dtparam=act_led_activelow=off
 ```
 
+```
+# Disable the ACT LED on the Pi Zero.
+dtparam=act_led_trigger=none
+dtparam=act_led_activelow=on
+```
+
 [back](../)
