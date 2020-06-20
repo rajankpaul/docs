@@ -3,6 +3,8 @@ layout: default
 title: Spigot 
 ---
 
-*   Something
+*   Install Java (Oracle or OpenJDK)
+*   Compile server jar using BuildTools
+*   Run like normal server
 
 [back](../)
