@@ -20,5 +20,6 @@ title: Linux
 *   [NextCloud](./nextcloud/)
 *   [transmission](./transmission/)
 *   [jellyfin](./jellyfin/)
+*   [Spigot](./spigot/)
 
 [back](../)
