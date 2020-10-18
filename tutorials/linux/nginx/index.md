@@ -70,11 +70,7 @@ server {
     default_type  text/html;
   
     root /var/www/example.com;
-  
-    location ~ /.well-known {
-        allow all;
-    }
-  
+
     location / {
         include proxy_params;
         proxy_pass http://X.X.X.X;
