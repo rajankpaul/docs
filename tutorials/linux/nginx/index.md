@@ -3,13 +3,29 @@ layout: default
 title: NGINX 
 ---
 
-*   Something
+# NGINX
+
+> pronounced "engine-x"
+> A light-weight webserver/reverse-proxy
+
+## Installation
 
 ```
 sudo apt-get install nginx -y 
-sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
-
 ```
+
+## Setup
+*   Generate DH params
+```
+sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
+```
+
+*   Create new configuration file and link it to _sites-enabled_
+```
+sudo ln -s /etc/nginx/sites-available/example.com.conf /etc/nginx/sites-enabled/
+```
+
+### Example Configuration File
 
 ```
 # Redirect HTTP requests to HTTPS 
