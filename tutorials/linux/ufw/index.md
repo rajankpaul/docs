@@ -5,6 +5,12 @@ title: Uncomplicated Firewall
 
 # Uncomplicated Firewall (UFW)
 
+## Initial Setup
+```
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+```
+
 ## Configure SSH
 *   Something
 ```
