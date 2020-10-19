@@ -29,8 +29,8 @@ python2 -m virtualenv venv
 ## Installation
 
 ```
-sudo pip3 install flask
-sudo venv/bin/python3 -m pip install flask
+sudo pip3 install Flask
+sudo venv/bin/python3 -m pip install Flask
 ```
 
 [back](../)
