@@ -11,7 +11,9 @@ title: NGINX
 ## Installation
 
 ```
-sudo apt-get install nginx -y 
+sudo apt-get install nginx -y
+sudo mkdir /var/www/example.com
+sudo chown www-data:www-data /var/www/example.com
 ```
 
 ## Setup
