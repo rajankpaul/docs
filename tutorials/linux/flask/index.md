@@ -11,6 +11,7 @@ title: Flask
 
 ### venv (Python 3)
 ```
+sudo apt-get install python3-venv
 mkdir myproject
 cd myproject
 python3 -m venv venv
