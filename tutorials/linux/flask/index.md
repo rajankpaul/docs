@@ -31,6 +31,7 @@ python2 -m virtualenv venv
 ```
 sudo pip3 install Flask
 sudo venv/bin/python3 -m pip install Flask
+sudo sh -c 'sudo pip freeze > requirements.txt'
 ```
 
 [back](../)
