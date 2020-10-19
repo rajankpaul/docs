@@ -7,6 +7,7 @@ title: Uncomplicated Firewall
 
 ## Initial Setup
 ```
+sudo vim /etc/default/ufw #IPV6=no
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 ```
