@@ -14,7 +14,7 @@ $ sudo pip3 install pipenv
 ## Configure
 
 ```
-$ pipenv install _<package>_
+$ pipenv install <package>
 ```
 
 ## Activate
